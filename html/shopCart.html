@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝网 - 我的购物车</title>
+    <link rel="shortcut icon" href="../images/title.png" type="images">
+    <link rel="stylesheet" href="../css/re.min.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/shopCart.min.css">
+</head>
+<style>
+    #useraccount{
+        position: relative;
+    }
+    #useraccount #useraccount1{
+        display: none;
+        height:30px;
+        width:150px;
+        font-size: 16px;
+        font-weight: bolder;
+        background:#ccc;
+        position:absolute;
+        left:0;
+        top:38px;
+    }
+</style>
+<body>
+
+<!--header-->
+<header id="header">
+    <ul>
+        <li id="useraccount">
+            <a href="#"><b>用户账号</b><i class="iconfont">&#xe643;</i></a>
+            <a href="#" id="useraccount1">没有用户信息</a>
+        </li>
+        <li><a href="#"><b>手机逛淘宝</b><i class="iconfont"></i></a></li>
+
+        <li><a href="/index.html"><b>天猫首页</b><i class="iconfont"></i></a></li>
+        <li><a href="#"><b>我的淘宝</b><i class="iconfont">&#xe643;</i></a></li>
+        <li><a href="#"><i class="iconfont">&#xe501;</i><b>购物车</b><em class="head-num">23</em><i class="iconfont">&#xe643;</i></a></li>
+        <li><a href="#"><i class="iconfont">&#xe644;
+        </i><b>收藏夹</b><i class="iconfont">&#xe643;</i></a></li>
+        <li><a href="#"><b>商品分类</b><i class="iconfont"></i></a></li>
+        <li><a href="#"><b>免费开店</b><i class="iconfont"></i></a></li>
+        <li><a href="#"><i class="iconfont">|</i></a></li>
+        <li><a href="#"><b>千牛卖家中心</b><i class="iconfont">&#xe643;</i></a></li>
+        <li><a href="#"><b>联系客服</b><i class="iconfont">&#xe643;</i></a></li>
+        <li><a href="#"><i class="iconfont">&#xe646;</i><b>网站导航</b><i class="iconfont">&#xe643;</i></a></li>
+    </ul>
+</header>
+
+<!--search-->
+<section id="search">
+    <img src="../images/sc-logo.png" alt="">
+    <div>
+        <form action="">
+            <button>宝贝&nbsp;&nbsp;<i class="iconfont">&#xe643;</i></button>
+            <img src="../images/sc-fangdajing.png" alt="">
+            <input type="text">
+            <button>搜索</button>
+        </form>
+    </div>
+</section>
+
+<section id="scmain">
+    <section class="scmain1">
+        <div>
+            <p class="scmain1-p"><b>全部商品</b><em class="sp-num"></em></p>
+            <p class="scmain1-p"><b>商品数量</b><em class="sp-sum">0</em></p>
+            <p class="scmain1-p"><b>库存紧张</b><em>0</em></p>
+            <p class="scmain1-lastp"><i>已选商品（不含运费）</i><em class="jiesuan">0.0</em><button class="jiesuanbtn">结算</button></p>
+        </div>
+        <ul>
+            <li><input type="checkbox" name="quan">全选</li>
+            <li>商品图片</li>
+            <li>商品信息</li>
+            <li>单价</li>
+            <li>数量</li>
+            <li>金额</li>
+            <li>操作</li>
+        </ul>
+    </section>
+    <section class="scmain2" id="datahtml">
+        <!--<div>
+            <aside><b>店铺：</b><a>时潮数码专卖店</a><span></span></aside>
+            <ul>
+                <li><input type="checkbox" name="xuan"></li>
+                <li><img src="../images/cob-2-1.png" alt=""></li>
+                <li>商品的一些信息</li>
+                <li>￥89</li>
+                <li>
+                    <button>-</button>
+                    <input type="text" value="1">
+                    <button>+</button>
+                </li>
+                <li>￥89</li>
+                <li><a href="#">删除</a></li>
+            </ul>
+        </div>-->
+    </section>
+    <section class="scmain3">
+        <ul>
+            <li><input type="checkbox" name="quan">全选</li>
+            <li><a href="javascript:;" id="del">删除</a></li>
+            <li><a href="#">清除失效宝贝</a></li>
+            <li><a href="#">移入收藏夹</a></li>
+            <li><a href="#">分享</a></li>
+            <li>已选商品<b class="shop-num">0</b>件</li>
+            <li>合计（不含运费）：<b class="jiesuan">0.0</b></li>
+            <li><button  class="jiesuanbtn">结算</button></li>
+        </ul>
+    </section>
+</section>
+
+<!--footer-->
+<section id="footer">
+<div>
+    <p><a href="#">阿里巴巴</a>|<a href="#">淘宝网</a>|<a href="#">天猫</a>|<a href="#">聚划算</a>|<a href="#">全球速卖通</a>|<a
+            href="#">阿里巴巴国际交易市场</a>|<a href="#">1688</a>|<a href="#">阿里妈妈</a>|<a href="#">飞猪</a>|<a href="#">淘小铺</a>|<a
+            href="#">阿里云计算</a>|<a href="#">AliOS</a>|<a href="#">阿里通信</a><a href="#">一淘</a>|<a href="#">万网</a>|<a href="#">高德</a>|<a href="#">UC</a>|<a href="#">友盟</a>|<a href="#">阿里安全</a></p>
+    <p><a href="#">虾米</a>|<a href="#">大麦网</a>|<a href="#">钉钉</a>|<a href="#">支付宝</a>|<a href="#">优酷</a>|<a
+            href="#">土豆</a>|<a href="#">阿里健康</a>|<a href="#">阿里影业</a>|<a href="#">阿里体育</a>|<a href="#">网上银行</a></p>
+</div>
+<p>
+    <a href="#">关于淘宝</a>
+    <a href="#">合作伙伴</a>
+    <a href="#">营销中心</a>
+    <a href="#">廉政举报</a>
+    <a href="#">联系客服</a>
+    <a href="#">开放平台</a>
+    <a href="#">诚征英才</a>
+    <a href="#">联系我们</a>
+    <a href="#">网站地图</a>
+    <a href="#">隐私权政策</a>
+    <a href="#">法律声明</a>
+    <a href="#">知识产权</a>
+    <a href="#">|</a>
+    <a href="#">©2003-现在Taobao.com版权所有</a>
+</p>
+    <p>
+        <a href="#">增值电信业务经营许可证：浙B2-20080224</a>|
+        <a href="#">增值电信业务经营许可证（跨地区）：浙B2-20150210</a>|
+        <a href="#">浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</a>
+    </p>
+    <p>
+        <a href="#">互联网药品信息服务资格证书（浙）-经营性-2018-0010</a>|
+        <a href="#">短消息类服务接入代码使用证书：号【2016】00154-A01|信息网络传播视听许可证：1109364号</a>|
+        <a href="#">出版物网络交易平台服务经营备案号：新出发浙备字第002号</a>
+    </p>
+    <p>
+        <a href="#">浙公网安备 33010002000078号 </a>|
+        <a href="#">广播电视节目制作经营许可证（浙）字第01012号</a>|
+        <a href="#">市场名称登记证：工商网市字3301004120号</a>|
+        <a href="#">医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号</a>
+    </p>
+</section>
+
+<script src="../js/require.js" async="true" defer data-main="../js/mainShopCart"></script>
+</body>
+</html>

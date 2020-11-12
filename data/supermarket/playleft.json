@@ -1,0 +1,33 @@
+{
+  "201709142": {
+    "id": "201709142",
+    "data": [
+      {
+        "imgUrl": "https://img.alicdn.com/tps/i4/TB1sgSzhFcJL1JjSZFOwu3WlXXa.png",
+        "righttitle": "畅享音乐",
+        "_pos_": 1,
+        "entityType": "OTHER",
+        "lefttitle": "明星同款",
+        "action": "https://3c.tmall.com/?spm=875.7931836/B.category2016015.2&pos=1&go=act&acm=201709142.1003.64.2195334&scm=1003.64.201709142.OTHER_1509188963684_2195334",
+        "righttitle1": "耳机发烧友",
+        "acm": "201709142.1003.64.2195334",
+        "_s_": "d",
+        "id": "1509188963684",
+        "scm": "1003.64.201709142.OTHER_1509188963684_2195334"
+      }
+    ],
+    "exposureParam": "//ac.mmstat.com/1.gif?com=02&logtype=4&cache=fM54RTRX&abtest=&apply=vote&abbucket=&cod=201709142&acm=201709142.1.1003&scm=1003.1.201709142",
+    "serverTime": 1604479376361,
+    "imgUrl": "https://img.alicdn.com/tps/i4/TB1sgSzhFcJL1JjSZFOwu3WlXXa.png",
+    "righttitle": "畅享音乐",
+    "_pos_": 1,
+    "entityType": "OTHER",
+    "lefttitle": "明星同款",
+    "action": "https://3c.tmall.com/?spm=875.7931836/B.category2016015.2&pos=1&go=act&acm=201709142.1003.64.2195334&scm=1003.64.201709142.OTHER_1509188963684_2195334",
+    "righttitle1": "耳机发烧友",
+    "acm": "201709142.1003.64.2195334",
+    "_s_": "d",
+    "scm": "1003.64.201709142.OTHER_1509188963684_2195334",
+    "success": true
+  }
+}

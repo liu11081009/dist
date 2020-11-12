@@ -1,0 +1,1122 @@
+#header {
+  height: 40px;
+  width: 100%;
+  color: #999;
+  background: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+  border-bottom-color: transparent !important;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  font-family: "Microsoft YaHei",tahome,arial,"Hiragino SansGB","\5b8b\4f53",sans-serif; }
+  #header a {
+    color: #999; }
+    #header a:hover {
+      color: #ff0036; }
+  #header .con {
+    width: 1230px;
+    margin: 0 auto; }
+    #header .con .head_left {
+      height: 32px;
+      line-height: 32px;
+      float: left; }
+      #header .con .head_left a {
+        display: inline-block; }
+      #header .con .head_left a:nth-of-type(1) {
+        padding: 0 10px 0 20px; }
+      #header .con .head_left a:nth-of-type(2) {
+        padding: 0 10px; }
+    #header .con .head_right {
+      height: 32px; }
+      #header .con .head_right ul {
+        float: right; }
+        #header .con .head_right ul a {
+          line-height: 32px; }
+        #header .con .head_right ul li {
+          float: left;
+          line-height: 32px;
+          position: relative;
+          padding: 0 10px; }
+          #header .con .head_right ul li a:nth-of-type(1) {
+            display: inline-block;
+            height: 40px; }
+          #header .con .head_right ul li b.iconfont {
+            font-size: 12px !important;
+            color: #ff0036; }
+          #header .con .head_right ul li i.iconfont {
+            font-size: 12px !important; }
+        #header .con .head_right ul li.z {
+          padding: 0 5px; }
+        #header .con .head_right ul li:nth-of-type(1),
+        #header .con .head_right ul li:nth-of-type(3) {
+          border-left: 1px solid rgba(0, 0, 0, 0);
+          border-right: 1px solid rgba(0, 0, 0, 0); }
+          #header .con .head_right ul li:nth-of-type(1) div,
+          #header .con .head_right ul li:nth-of-type(3) div {
+            width: 100%; }
+            #header .con .head_right ul li:nth-of-type(1) div:hover a,
+            #header .con .head_right ul li:nth-of-type(3) div:hover a {
+              text-decoration: underline; }
+            #header .con .head_right ul li:nth-of-type(1) div i,
+            #header .con .head_right ul li:nth-of-type(3) div i {
+              display: inline-block;
+              transform: rotateZ(0deg);
+              transition: 0.3s; }
+          #header .con .head_right ul li:nth-of-type(1) dl,
+          #header .con .head_right ul li:nth-of-type(3) dl {
+            display: none;
+            position: absolute;
+            left: -1px;
+            top: 32px;
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            border-top: 0;
+            padding-top: 10px;
+            z-index: 1000; }
+            #header .con .head_right ul li:nth-of-type(1) dl dd,
+            #header .con .head_right ul li:nth-of-type(3) dl dd {
+              padding: 0 10px; }
+              #header .con .head_right ul li:nth-of-type(1) dl dd a,
+              #header .con .head_right ul li:nth-of-type(3) dl dd a {
+                width: 74px;
+                height: 40px; }
+          #header .con .head_right ul li:nth-of-type(1):hover,
+          #header .con .head_right ul li:nth-of-type(3):hover {
+            background: #fff;
+            border-left: 1px solid #f0f0f0;
+            border-right: 1px solid #f0f0f0; }
+            #header .con .head_right ul li:nth-of-type(1):hover div,
+            #header .con .head_right ul li:nth-of-type(3):hover div {
+              width: 100%; }
+            #header .con .head_right ul li:nth-of-type(1):hover i,
+            #header .con .head_right ul li:nth-of-type(3):hover i {
+              display: inline-block;
+              transform: rotateZ(180deg); }
+            #header .con .head_right ul li:nth-of-type(1):hover dl,
+            #header .con .head_right ul li:nth-of-type(3):hover dl {
+              display: block;
+              z-index: 1000; }
+              #header .con .head_right ul li:nth-of-type(1):hover dl dd:hover a,
+              #header .con .head_right ul li:nth-of-type(3):hover dl dd:hover a {
+                text-decoration: underline; }
+        #header .con .head_right ul li:nth-of-type(5) section {
+          width: 175px;
+          height: 227px;
+          display: none;
+          position: absolute;
+          left: -45px;
+          top: 32px;
+          box-shadow: 0 0 5px #aaa;
+          z-index: 1000;
+          background: #fff; }
+          #header .con .head_right ul li:nth-of-type(5) section img {
+            width: 100%;
+            height: 100%; }
+          #header .con .head_right ul li:nth-of-type(5) section p {
+            width: 0px;
+            height: 0px;
+            border: 5px solid rgba(0, 0, 0, 0);
+            border-bottom: 5px solid #fff;
+            position: absolute;
+            left: 83px;
+            top: -9px; }
+        #header .con .head_right ul li:nth-of-type(5):hover section {
+          display: block; }
+        #header .con .head_right ul li:nth-of-type(7) {
+          border-left: 1px solid rgba(0, 0, 0, 0);
+          border-right: 1px solid rgba(0, 0, 0, 0); }
+          #header .con .head_right ul li:nth-of-type(7) section {
+            position: absolute;
+            right: -1px;
+            top: 32px;
+            width: 125px;
+            background: #fff;
+            padding: 8px 10px;
+            border: 1px solid #f0f0f0;
+            border-top: 0;
+            display: none;
+            z-index: 1000; }
+            #header .con .head_right ul li:nth-of-type(7) section dl {
+              width: 125px;
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              flex-wrap: wrap;
+              line-height: 1.4;
+              border-bottom: 1px dashed #ccc;
+              z-index: 1000; }
+              #header .con .head_right ul li:nth-of-type(7) section dl dt {
+                width: 125px;
+                color: #666;
+                font-weight: 700; }
+              #header .con .head_right ul li:nth-of-type(7) section dl dd {
+                width: 48px; }
+          #header .con .head_right ul li:nth-of-type(7) i {
+            display: inline-block;
+            transform: rotateZ(0deg);
+            transition: 0.3s; }
+          #header .con .head_right ul li:nth-of-type(7):hover {
+            background: #fff;
+            border-left: 1px solid #f0f0f0;
+            border-right: 1px solid #f0f0f0; }
+            #header .con .head_right ul li:nth-of-type(7):hover section {
+              display: block; }
+              #header .con .head_right ul li:nth-of-type(7):hover section a:hover {
+                text-decoration: underline; }
+            #header .con .head_right ul li:nth-of-type(7):hover i {
+              transform: rotateZ(180deg); }
+        #header .con .head_right ul li:nth-of-type(8) {
+          border-left: 1px solid rgba(0, 0, 0, 0);
+          border-right: 1px solid rgba(0, 0, 0, 0); }
+          #header .con .head_right ul li:nth-of-type(8) section {
+            width: 1200px;
+            padding: 25px 0;
+            display: none;
+            position: absolute;
+            right: -1px;
+            top: 32px;
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            border-top: 0;
+            z-index: 1000; }
+            #header .con .head_right ul li:nth-of-type(8) section dl {
+              padding-left: 30px;
+              display: flex;
+              flex-flow: wrap;
+              color: #666;
+              z-index: 1000; }
+              #header .con .head_right ul li:nth-of-type(8) section dl dt {
+                width: 455px; }
+              #header .con .head_right ul li:nth-of-type(8) section dl dd {
+                width: 90px; }
+            #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(1) {
+              width: 455px; }
+              #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(1) dt {
+                color: #f56a00; }
+              #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(1) dd a:hover {
+                color: #f56a00;
+                text-decoration: underline; }
+            #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(2) {
+              width: 455px;
+              border-left: 1px solid #f0f0f0;
+              border-right: 1px solid #f0f0f0; }
+              #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(2) dt {
+                color: #2263d4; }
+              #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(2) dd a:hover {
+                color: #2263d4;
+                text-decoration: underline; }
+            #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(3) {
+              width: 198px; }
+              #header .con .head_right ul li:nth-of-type(8) section dl:nth-of-type(3) dd a:hover {
+                color: #666;
+                text-decoration: underline; }
+            #header .con .head_right ul li:nth-of-type(8) section a {
+              color: #666; }
+          #header .con .head_right ul li:nth-of-type(8) i {
+            display: inline-block;
+            transform: rotateZ(0deg);
+            transition: 0.3s; }
+          #header .con .head_right ul li:nth-of-type(8):hover {
+            background: #fff;
+            border-left: 1px solid #f0f0f0;
+            border-right: 1px solid #f0f0f0; }
+            #header .con .head_right ul li:nth-of-type(8):hover section {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start; }
+            #header .con .head_right ul li:nth-of-type(8):hover i {
+              transform: rotateZ(180deg); }
+
+#search {
+  width: 1260px;
+  height: 130px;
+  margin: 0 auto;
+  position: relative; }
+  #search h1 img {
+    width: 290px;
+    height: 130px; }
+  #search form {
+    width: 625px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-width: 2px 0 2px 2px;
+    border: solid #ff0036; }
+    #search form input {
+      width: 491px;
+      height: 40px;
+      padding: 5px 3px 5px 5px;
+      box-sizing: border-box;
+      border: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #000; }
+    #search form button {
+      width: 134px;
+      height: 40px;
+      background: #ff0036;
+      border: 0;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      font-family: '\5FAE\8F6F\96C5\9ED1',arial,"\5b8b\4f53";
+      position: absolute;
+      right: 0;
+      top: 0;
+      letter-spacing: 6px; }
+
+#mount {
+  width: 100%;
+  height: 50px;
+  background: #ff0036;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  z-index: 1100;
+  display: none; }
+  #mount .mount-main {
+    width: 1230px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    #mount .mount-main div {
+      margin-right: 100px;
+      width: 160px;
+      height: 50px;
+      background: url(../images/mountLogo.png) no-repeat center center;
+      background-size: 160px 50px; }
+    #mount .mount-main form {
+      flex: 1;
+      width: 740px;
+      height: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center; }
+      #mount .mount-main form input {
+        padding: 5px 3px 5px 5px;
+        border: 0;
+        height: 32px;
+        width: 511px;
+        box-sizing: border-box; }
+      #mount .mount-main form button {
+        width: 90px;
+        height: 32px;
+        border: 0;
+        background: #ff0036;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        letter-spacing: 6px;
+        font-weight: 700; }
+
+.nav_hover {
+  background: url(../images/nav-bg.png) !important;
+  color: #ffffff !important; }
+
+#main {
+  width: 1260px;
+  margin: 0 auto;
+  height: 1000px;
+  background: url("../images/bannerBg.png") no-repeat 0 -170px;
+  background-position: center center;
+  background-size: 130% 130%;
+  font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif; }
+  #main main {
+    width: 1230px;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden; }
+    #main main #banner {
+      width: 100%;
+      height: 535px; }
+      #main main #banner nav {
+        height: 35px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        #main main #banner nav p {
+          width: 100px;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          cursor: pointer;
+          background: #C60A0A;
+          color: #ffe013; }
+        #main main #banner nav ul {
+          display: flex;
+          justify-content: flex-start;
+          flex: 1;
+          border-bottom: 1px solid #ff0036;
+          background: #fff; }
+          #main main #banner nav ul li {
+            display: flex; }
+          #main main #banner nav ul img {
+            width: 100px;
+            height: 30px; }
+          #main main #banner nav ul a {
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+            font-size: 16px;
+            height: 35px;
+            color: #333; }
+            #main main #banner nav ul a:hover {
+              color: #ff0036; }
+          #main main #banner nav ul img, #main main #banner nav ul li a {
+            padding: 0 8px; }
+      #main main #banner aside {
+        position: relative; }
+        #main main #banner aside .nav_left {
+          width: 200px;
+          height: 500px;
+          box-sizing: border-box;
+          background: url("../images/nav-bg.png");
+          position: absolute;
+          float: left;
+          z-index: 99; }
+          #main main #banner aside .nav_left ul li {
+            position: relative;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            height: 31px; }
+            #main main #banner aside .nav_left ul li a {
+              color: #fff;
+              font-size: 14px;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              height: 100%; }
+              #main main #banner aside .nav_left ul li a i {
+                color: #999;
+                padding: 0 4px 0 14px;
+                font-size: 16px; }
+            #main main #banner aside .nav_left ul li:hover {
+              background: #fff; }
+              #main main #banner aside .nav_left ul li:hover a, #main main #banner aside .nav_left ul li:hover i {
+                color: red; }
+          #main main #banner aside .nav_left ol {
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 500px;
+            padding: 20px 0;
+            box-sizing: border-box;
+            display: none; }
+            #main main #banner aside .nav_left ol li {
+              width: 152px;
+              height: 31px;
+              border-radius: 10px;
+              border: 1px solid #cb0c10; }
+              #main main #banner aside .nav_left ol li a, #main main #banner aside .nav_left ol li i {
+                color: #fff; }
+              #main main #banner aside .nav_left ol li i {
+                padding-right: 10px;
+                font-size: 16px; }
+              #main main #banner aside .nav_left ol li a {
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%; }
+              #main main #banner aside .nav_left ol li:hover {
+                background: #cb0c10; }
+        #main main #banner aside .nav_right {
+          width: 100%;
+          height: 500px;
+          margin-right: -70px;
+          position: absolute;
+          right: 0; }
+          #main main #banner aside .nav_right ul {
+            position: relative; }
+            #main main #banner aside .nav_right ul li {
+              position: absolute;
+              display: none; }
+            #main main #banner aside .nav_right ul li:nth-of-type(1) {
+              display: block; }
+          #main main #banner aside .nav_right ol {
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 80%;
+            bottom: 0;
+            margin: auto;
+            display: flex;
+            justify-content: space-between; }
+            #main main #banner aside .nav_right ol li {
+              width: 30px;
+              height: 10px;
+              background: #fff;
+              margin-right: 5px;
+              cursor: pointer; }
+            #main main #banner aside .nav_right ol li:nth-of-type(1) {
+              background: skyblue; }
+        #main main #banner aside .nav_cen {
+          width: 852px;
+          height: 500px;
+          background: #fff;
+          position: absolute;
+          left: 200px;
+          z-index: 99;
+          display: none; }
+          #main main #banner aside .nav_cen div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: flex-start;
+            display: none; }
+            #main main #banner aside .nav_cen div dl {
+              display: flex; }
+              #main main #banner aside .nav_cen div dl dt {
+                width: 80px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #333;
+                padding: 10px 10px 10px 15px;
+                display: flex;
+                justify-content: space-between; }
+              #main main #banner aside .nav_cen div dl dd {
+                border-bottom: 1px dashed #ccc;
+                padding: 10px 10px 10px 0;
+                width: 600px; }
+                #main main #banner aside .nav_cen div dl dd a {
+                  font-size: 14px;
+                  line-height: 22px;
+                  display: inline-block;
+                  height: 22px;
+                  color: #666;
+                  margin-left: 13px; }
+                  #main main #banner aside .nav_cen div dl dd a:hover {
+                    color: #ff0036; }
+    #main main #con-one {
+      height: 435px; }
+      #main main #con-one .tianmao11 {
+        width: 1230px;
+        height: 105px;
+        background: url(../images/tian-miao11.png) no-repeat center center;
+        background-size: 300px 65px; }
+      #main main #con-one .con-one-bot {
+        height: 330px;
+        width: 1230px; }
+        #main main #con-one .con-one-bot div {
+          float: left;
+          border-radius: 10px; }
+        #main main #con-one .con-one-bot .cob-b {
+          position: relative; }
+          #main main #con-one .con-one-bot .cob-b a {
+            color: inherit;
+            display: block; }
+          #main main #con-one .con-one-bot .cob-b i, #main main #con-one .con-one-bot .cob-b b {
+            display: block;
+            color: inherit; }
+          #main main #con-one .con-one-bot .cob-b i {
+            font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+            font-size: 24px;
+            padding-top: 30px;
+            font-weight: 700; }
+          #main main #con-one .con-one-bot .cob-b b {
+            font-size: 18px; }
+        #main main #con-one .con-one-bot .cob-1 {
+          background: url(../images/cob-1.png);
+          color: #ff520c; }
+        #main main #con-one .con-one-bot .cob-2 div:first-child {
+          background: url(../images/cob-2-1.png);
+          color: #ff0084; }
+        #main main #con-one .con-one-bot .cob-2 div:last-child {
+          background: url(../images/cob-2-2.png);
+          color: #009d66; }
+        #main main #con-one .con-one-bot .cob-3 {
+          background: url(../images/cob-3.png);
+          color: #ff0e3c; }
+        #main main #con-one .con-one-bot .cob-4 div:first-child {
+          background: url(../images/cob-4-1.png);
+          color: #005aff; }
+        #main main #con-one .con-one-bot .cob-4 div:last-child {
+          background: url(../images/cob-4-2.png);
+          color: #8300ff; }
+        #main main #con-one .con-one-bot .cob-1,
+        #main main #con-one .con-one-bot .cob-3 {
+          width: 250px;
+          height: 330px;
+          margin-right: 10px;
+          display: flex;
+          justify-content: center; }
+          #main main #con-one .con-one-bot .cob-1 b, #main main #con-one .con-one-bot .cob-1 i,
+          #main main #con-one .con-one-bot .cob-3 b,
+          #main main #con-one .con-one-bot .cob-3 i {
+            text-align: center; }
+          #main main #con-one .con-one-bot .cob-1 img,
+          #main main #con-one .con-one-bot .cob-3 img {
+            width: 200px;
+            height: 250px; }
+        #main main #con-one .con-one-bot .cob-2,
+        #main main #con-one .con-one-bot .cob-4 {
+          width: 350px;
+          height: 330px;
+          margin-right: 10px; }
+          #main main #con-one .con-one-bot .cob-2 i, #main main #con-one .con-one-bot .cob-2 b,
+          #main main #con-one .con-one-bot .cob-4 i,
+          #main main #con-one .con-one-bot .cob-4 b {
+            padding-left: 30px; }
+          #main main #con-one .con-one-bot .cob-2 div,
+          #main main #con-one .con-one-bot .cob-4 div {
+            height: 160px;
+            width: 100%; }
+            #main main #con-one .con-one-bot .cob-2 div img,
+            #main main #con-one .con-one-bot .cob-4 div img {
+              position: absolute;
+              right: 20px;
+              top: 20px;
+              width: 150px;
+              height: 120px; }
+          #main main #con-one .con-one-bot .cob-2 div:nth-of-type(1),
+          #main main #con-one .con-one-bot .cob-4 div:nth-of-type(1) {
+            margin-bottom: 8px; }
+        #main main #con-one .con-one-bot .cob-4 {
+          margin: 0; }
+    #main main #con-two {
+      width: 1230px;
+      height: 370px;
+      margin-top: 24px;
+      overflow: hidden; }
+      #main main #con-two div {
+        float: left; }
+        #main main #con-two div aside {
+          height: 55px;
+          background: #fff; }
+          #main main #con-two div aside b.cn {
+            color: #333;
+            font-weight: 700;
+            line-height: 55px;
+            margin-left: 10px;
+            font-size: 18px; }
+          #main main #con-two div aside b.en {
+            color: #333;
+            font-weight: 700;
+            line-height: 55px;
+            margin-left: 10px;
+            font-size: 14px; }
+          #main main #con-two div aside a {
+            float: right;
+            line-height: 55px;
+            margin-right: 10px;
+            color: #666;
+            font-size: 16px; }
+            #main main #con-two div aside a i {
+              font-size: 16px; }
+        #main main #con-two div .aside_xa {
+          display: block;
+          width: 100%;
+          height: 315px; }
+          #main main #con-two div .aside_xa img {
+            width: 100%;
+            height: 315px; }
+      #main main #con-two .conTwo:nth-of-type(1) {
+        width: 304px;
+        margin-right: 13px; }
+      #main main #con-two .conTwo:nth-of-type(2) {
+        width: 450px;
+        margin-right: 13px; }
+      #main main #con-two .conTwo:nth-of-type(3) {
+        width: 450px; }
+    #main main #con-three {
+      height: 327px;
+      margin-top: 15px; }
+      #main main #con-three ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap; }
+        #main main #con-three ul li {
+          width: 122px;
+          height: 108px;
+          position: relative; }
+          #main main #con-three ul li a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            background: #fff; }
+            #main main #con-three ul li a img {
+              width: 60%;
+              height: 60%; }
+          #main main #con-three ul li .imgmark {
+            flex-flow: column;
+            color: #fff;
+            line-height: 28px;
+            background: rgba(0, 0, 0, 0.8);
+            display: none; }
+            #main main #con-three ul li .imgmark p:nth-of-type(1) {
+              width: 100px;
+              height: 28px;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              text-align: center; }
+            #main main #con-three ul li .imgmark p:nth-of-type(2) {
+              width: 63px;
+              height: 18px;
+              line-height: 18px;
+              background: #ff0036;
+              border-radius: 9px;
+              text-align: center; }
+          #main main #con-three ul li:hover .imgmark {
+            display: flex; }
+        #main main #con-three ul #conTh_last {
+          background: #fff;
+          color: #999; }
+          #main main #con-three ul #conTh_last div {
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center; }
+            #main main #con-three ul #conTh_last div i {
+              font-size: 30px;
+              transform: rotate(360deg);
+              transition: .3s; }
+            #main main #con-three ul #conTh_last div span {
+              font-size: 14px; }
+          #main main #con-three ul #conTh_last:hover {
+            background: #ff0036;
+            color: #fff; }
+            #main main #con-three ul #conTh_last:hover i {
+              transform: rotate(0deg); }
+    #main main #supermarket {
+      margin-top: 20px;
+      height: 665px; }
+      #main main #supermarket h2 {
+        vertical-align: center; }
+        #main main #supermarket h2 img {
+          width: 214px;
+          height: 25px; }
+      #main main #supermarket .super-main {
+        height: 618px;
+        margin-top: 10px; }
+        #main main #supermarket .super-main .sm-left {
+          float: left; }
+          #main main #supermarket .super-main .sm-left a {
+            display: block;
+            width: 235px;
+            height: 618px;
+            position: relative;
+            color: #fff; }
+            #main main #supermarket .super-main .sm-left a img {
+              width: 100%;
+              height: 100%; }
+            #main main #supermarket .super-main .sm-left a p {
+              position: absolute;
+              left: 0;
+              bottom: 100px;
+              background: rgba(0, 0, 0, 0.7);
+              width: 200px;
+              height: 64px; }
+              #main main #supermarket .super-main .sm-left a p span {
+                display: block;
+                width: 70px;
+                height: 64px;
+                line-height: 24px;
+                font-size: 18px;
+                padding: 10px;
+                box-sizing: border-box;
+                text-align: center;
+                vertical-align: center;
+                float: left; }
+              #main main #supermarket .super-main .sm-left a p b {
+                display: inline-block;
+                width: 114px;
+                height: 24px;
+                line-height: 24px;
+                float: left; }
+              #main main #supermarket .super-main .sm-left a p b:nth-of-type(1) {
+                margin-top: 10px; }
+            #main main #supermarket .super-main .sm-left a i {
+              position: absolute;
+              right: 10px;
+              bottom: 10px;
+              font-size: 30px; }
+        #main main #supermarket .super-main .sm-right {
+          width: 995px;
+          height: 100%;
+          float: left;
+          /*a{
+            display: block;
+            float: left;
+            margin-left:13px;
+            border-bottom:13px solid #f5f5f5;
+            width:235px;
+            height:300px;
+            div{
+              border:1px solid #ff0036;
+              height:100%;
+              padding:24px 24px 20px 24px;
+              box-sizing: border-box;
+              img{
+                width:185px;
+                height:185px;
+              }
+              p{
+                margin:8px auto;
+                color:#333;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: center;
+                max-height: 40px;
+                overflow: hidden;
+              }
+              em{
+                display:block;
+                text-align: center;
+                font-size: 18px;
+                line-height: 18px;
+                color:#ff0036;
+              }
+            }
+          }*/ }
+          #main main #supermarket .super-main .sm-right .sm-right1 {
+            background: #fff;
+            float: left;
+            margin-left: 13px;
+            border-bottom: 11px solid #f5f5f5;
+            width: 485px;
+            height: 301px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            #main main #supermarket .super-main .sm-right .sm-right1 section {
+              width: 95%;
+              height: 95%;
+              box-shadow: 0px 0px 3px #ccc; }
+              #main main #supermarket .super-main .sm-right .sm-right1 section ul {
+                width: 100%;
+                height: 57px; }
+                #main main #supermarket .super-main .sm-right .sm-right1 section ul li {
+                  width: 50%;
+                  float: left; }
+                  #main main #supermarket .super-main .sm-right .sm-right1 section ul li a {
+                    width: 100%;
+                    height: 57px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 0;
+                    color: #000;
+                    font-size: 18px;
+                    margin: 0;
+                    background: #ccc; }
+                    #main main #supermarket .super-main .sm-right .sm-right1 section ul li a:hover {
+                      background: #00B262;
+                      color: #fff; }
+              #main main #supermarket .super-main .sm-right .sm-right1 section div {
+                position: relative;
+                height: 225px;
+                cursor: pointer; }
+                #main main #supermarket .super-main .sm-right .sm-right1 section div img {
+                  float: right;
+                  width: 200px;
+                  height: 200px;
+                  margin: 10px 30px 0 0; }
+                #main main #supermarket .super-main .sm-right .sm-right1 section div p {
+                  position: absolute;
+                  left: 10px;
+                  bottom: 50px;
+                  width: 290px;
+                  height: 87px;
+                  background: url(../images/FQbg.png) no-repeat;
+                  display: flex;
+                  flex-flow: column;
+                  justify-content: center; }
+                  #main main #supermarket .super-main .sm-right .sm-right1 section div p b {
+                    display: flex;
+                    justify-content: flex-start;
+                    font-size: 24px;
+                    line-height: 25px;
+                    font-weight: 700;
+                    color: #00B262; }
+                    #main main #supermarket .super-main .sm-right .sm-right1 section div p b i {
+                      margin: 0 20px;
+                      font-size: 23px; }
+                  #main main #supermarket .super-main .sm-right .sm-right1 section div p em {
+                    display: block;
+                    font-size: 20px;
+                    color: #000;
+                    margin: 10px 0 0 20px; }
+              #main main #supermarket .super-main .sm-right .sm-right1 section .smFq:nth-of-type(2) {
+                display: none; }
+    #main main #life,
+    #main main #play {
+      margin-top: 20px;
+      width: 100%;
+      height: 665px; }
+      #main main #life h2,
+      #main main #play h2 {
+        color: #000;
+        font-size: 18px;
+        padding-bottom: 5px; }
+        #main main #life h2 p,
+        #main main #play h2 p {
+          height: 28px;
+          border-left: 5px solid #000;
+          padding: 0 0 0 10px; }
+      #main main #life .life-main .left-l,
+      #main main #play .life-main .left-l {
+        float: left; }
+        #main main #life .life-main .left-l a,
+        #main main #play .life-main .left-l a {
+          display: block;
+          width: 235px;
+          height: 618px;
+          position: relative;
+          color: #fff; }
+          #main main #life .life-main .left-l a img,
+          #main main #play .life-main .left-l a img {
+            width: 100%;
+            height: 100%; }
+          #main main #life .life-main .left-l a p,
+          #main main #play .life-main .left-l a p {
+            position: absolute;
+            left: 0;
+            bottom: 100px;
+            background: rgba(0, 0, 0, 0.7);
+            width: 200px;
+            height: 64px; }
+            #main main #life .life-main .left-l a p span,
+            #main main #play .life-main .left-l a p span {
+              display: block;
+              width: 70px;
+              height: 64px;
+              line-height: 24px;
+              font-size: 18px;
+              padding: 10px;
+              box-sizing: border-box;
+              text-align: center;
+              vertical-align: center;
+              float: left; }
+            #main main #life .life-main .left-l a p b,
+            #main main #play .life-main .left-l a p b {
+              display: inline-block;
+              width: 114px;
+              height: 24px;
+              line-height: 24px;
+              float: left; }
+            #main main #life .life-main .left-l a p b:nth-of-type(1),
+            #main main #play .life-main .left-l a p b:nth-of-type(1) {
+              margin-top: 10px; }
+          #main main #life .life-main .left-l a i,
+          #main main #play .life-main .left-l a i {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            font-size: 30px; }
+    #main main #love {
+      margin-top: 30px;
+      height: auto;
+      clear: both; }
+      #main main #love h2 {
+        font-size: 18px;
+        color: #666;
+        line-height: 20px; }
+        #main main #love h2 fieldset {
+          height: 43px;
+          width: 300px;
+          border-top: 1px solid #666;
+          margin: 0 auto; }
+          #main main #love h2 fieldset legend {
+            text-align: center;
+            padding: 0 20px 0 50px;
+            position: relative; }
+            #main main #love h2 fieldset legend img {
+              width: 30px;
+              height: 30px;
+              position: absolute;
+              left: 12px;
+              top: -5px; }
+      #main main #love .love-main {
+        height: auto;
+        clear: both;
+        overflow: hidden; }
+    #main main #end {
+      height: 80px;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid #666; }
+    #main main #footer {
+      width: 1230px;
+      height: 602px;
+      background: #fff;
+      margin: 0 auto;
+      border-top: 1px solid #ccc; }
+      #main main #footer .foot1 {
+        height: 150px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; }
+        #main main #footer .foot1 a {
+          width: 297px;
+          height: 100px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center; }
+          #main main #footer .foot1 a aside {
+            border-radius: 50%;
+            border: 1px solid #ff0036;
+            color: #ff0036;
+            margin: 10px;
+            font-size: 30px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          #main main #footer .foot1 a div {
+            color: #666;
+            display: flex;
+            flex-flow: column;
+            align-items: flex-start;
+            justify-content: center; }
+            #main main #footer .foot1 a div b {
+              font-weight: 700;
+              font-size: 18px; }
+            #main main #footer .foot1 a div em {
+              font-size: 16px; }
+      #main main #footer .foot2 {
+        height: 190px;
+        margin-top: 20px;
+        border-bottom: 1px solid #ff0036;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        color: #666; }
+        #main main #footer .foot2 dl dt {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 30px; }
+        #main main #footer .foot2 dl dd {
+          font-size: 14px;
+          line-height: 22px; }
+          #main main #footer .foot2 dl dd img {
+            width: 100px;
+            height: 100px; }
+      #main main #footer .foot3 {
+        background: #000;
+        color: #fff;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start; }
+        #main main #footer .foot3 p {
+          height: 39px; }
+          #main main #footer .foot3 p a {
+            color: #fff;
+            padding: 0 10px; }
+        #main main #footer .foot3 p:nth-of-type(1) {
+          margin-top: 10px; }
+        #main main #footer .foot3 aside {
+          color: #686868;
+          height: 30px; }
+          #main main #footer .foot3 aside a {
+            color: #a4a4a4;
+            margin-right: 60px; }
+    #main main #daohanglist {
+      width: 36px;
+      height: 240px;
+      position: fixed;
+      left: 5px;
+      bottom: 100px;
+      display: none; }
+      #main main #daohanglist a {
+        display: block;
+        width: 36px;
+        height: 36px;
+        background: rgba(0, 0, 0, 0.5); }
+        #main main #daohanglist a div {
+          width: 36px;
+          height: 36px;
+          box-sizing: border-box;
+          padding: 5px;
+          color: #fff;
+          margin-top: 5px;
+          font-size: 12px;
+          line-height: 13px;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+        #main main #daohanglist a:hover {
+          background: #ff0036; }
+      #main main #daohanglist a:nth-of-type(1) {
+        background: #ff0036; }
+
+.fq {
+  background: #00B262 !important;
+  color: #fff !important; }
+
+.spa {
+  display: block;
+  float: left;
+  margin-left: 13px;
+  border-bottom: 18px solid #f5f5f5;
+  width: 235px;
+  height: 300px;
+  background: #fff; }
+  .spa div {
+    border: 1px solid #fff;
+    height: 100%;
+    padding: 24px 24px 20px 24px;
+    box-sizing: border-box; }
+    .spa div aside {
+      width: 185px;
+      height: 185px;
+      position: relative; }
+      .spa div aside img {
+        width: 100%;
+        height: 100%; }
+      .spa div aside .mark {
+        display: none;
+        width: 185px;
+        height: 185px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgba(255, 255, 255, 0.3); }
+    .spa div p {
+      margin: 8px auto;
+      color: #333;
+      font-size: 14px;
+      line-height: 20px;
+      text-align: center;
+      max-height: 40px;
+      overflow: hidden; }
+    .spa div em {
+      display: block;
+      text-align: center;
+      font-size: 18px;
+      line-height: 18px;
+      color: #ff0036; }
+  .spa:hover div {
+    border: 1px solid #ff0036; }
+    .spa:hover div .mark {
+      display: block; }
+
+#love .spa:nth-of-type(5n-4) {
+  margin-left: 0 !important; }
+
+.daohangAct {
+  background: #ff0036 !important; }

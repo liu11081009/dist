@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表页</title>
+    <link rel="shortcut icon" href="../images/title.png" type="images">
+    <link rel="stylesheet" href="../css/re.min.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/index.min.css">
+    <link rel="stylesheet" href="../css/details.min.css">
+    <link rel="stylesheet" href="../css/list.min.css">
+</head>
+<body>
+
+<!--头部-->
+<header id="header">
+    <div class="con">
+        <div class="head_left">
+            <span>喵，欢迎来天猫</span>
+            <a href="/html/login.html">请登录</a>
+            <a href="/html/register.html">免费注册</a>
+        </div>
+        <div class="head_right">
+            <ul>
+                <li>
+                    <div>
+                        <a href="#">我的淘宝</a>
+                        <i class="iconfont">&#xe643;</i>
+                    </div>
+                    <dl>
+                        <dd><a href="#">已买到的宝贝</a></dd>
+                        <dd><a href="#">已卖出的宝贝</a></dd>
+                    </dl>
+                </li>
+                <li id="shopcarindex">
+                    <b class="iconfont">&#xe501;</b>
+                    <a href="javascript:;">购物车</a>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">收藏夹</a>
+                        <i class="iconfont">&#xe643;</i>
+                    </div>
+                    <dl>
+                        <dd><a href="#">收藏的宝贝</a></dd>
+                        <dd><a href="#">收藏的店铺</a></dd>
+                    </dl>
+                </li>
+                <li class="z">|</li>
+                <li>
+                    <div>
+                        <b class="iconfont">&#xe509;</b>
+                        <a href="#">手机版</a>
+                    </div>
+                    <section>
+                        <p></p>
+                        <img src="../images/phoneB.png" alt="">
+                    </section>
+                </li>
+                <li>
+                    <a href="#">淘宝网</a>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">商家支持</a>
+                        <i class="iconfont">&#xe643;</i>
+                    </div>
+                    <section>
+                        <dl>
+                            <dt>商家：</dt>
+                            <dd><a href="#">商家中心</a></dd>
+                            <dd><a href="#">天猫规则</a></dd>
+                            <dd><a href="#">商家入驻</a></dd>
+                            <dd><a href="#">运营服务</a></dd>
+                            <dd><a href="#">商家品控</a></dd>
+                            <dd><a href="#">商家工具</a></dd>
+                            <dd><a href="#">天猫智库</a></dd>
+                            <dd><a href="#">喵言喵语</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>帮助：</dt>
+                            <dd><a href="#">帮助中心</a></dd>
+                            <dd><a href="#">问商友</a></dd>
+                        </dl>
+                    </section>
+                </li>
+                <li>
+                    <div>
+                        <b class="iconfont">&#xe646;</b>
+                        <a href="#">网站导航</a>
+                        <i class="iconfont">&#xe643;</i>
+                    </div>
+                    <section>
+                        <dl>
+                            <dt>热点推荐 Hot</dt>
+                            <dd><a href="#">天猫超市</a></dd>
+                            <dd><a href="#">喵先生</a></dd>
+                            <dd><a href="#">科技新品</a></dd>
+                            <dd><a href="#">女装新品</a></dd>
+                            <dd><a href="#">酷玩街</a></dd>
+                            <dd><a href="#">内衣新品</a></dd>
+                            <dd><a href="#">试美妆</a></dd>
+                            <dd><a href="#">运动新品</a></dd>
+                            <dd><a href="#">时尚先生</a></dd>
+                            <dd><a href="#">精明妈咪</a></dd>
+                            <dd><a href="#">吃乐会</a></dd>
+                            <dd><a href="#">企业采购</a></dd>
+                            <dd><a href="#">会员积分</a></dd>
+                            <dd><a href="#">天猫国际</a></dd>
+                            <dd><a href="#">品质频道</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>行业市场 Market</dt>
+                            <dd><a href="#">美妆</a></dd>
+                            <dd><a href="#">电器</a></dd>
+                            <dd><a href="#">女装</a></dd>
+                            <dd><a href="#">男装</a></dd>
+                            <dd><a href="#">女鞋</a></dd>
+                            <dd><a href="#">男鞋</a></dd>
+                            <dd><a href="#">内衣</a></dd>
+                            <dd><a href="#">箱包</a></dd>
+                            <dd><a href="#">运动</a></dd>
+                            <dd><a href="#">母婴</a></dd>
+                            <dd><a href="#">家装</a></dd>
+                            <dd><a href="#">医药</a></dd>
+                            <dd><a href="#">食品</a></dd>
+                            <dd><a href="#">配饰</a></dd>
+                            <dd><a href="#">汽车</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>服务指南 Help</dt>
+                            <dd><a href="#">帮助中心</a></dd>
+                            <dd><a href="#">品质保障</a></dd>
+                            <dd><a href="#">特色服务</a></dd>
+                            <dd><a href="#">7天退换货</a></dd>
+                        </dl>
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!--搜索框-->
+<section id="dtl-search">
+    <h1 class="dtl-se1"><a href="http://localhost:8889"><img src="../images/details-logo.png" alt=""></a></h1>
+    <div class="dtl-se2"></div>
+    <div class="dtl-se3">
+        <input type="text" placeholder="搜索 天猫 商品/品牌/店铺">
+        <button>搜天猫</button>
+    </div>
+</section>
+
+<!--轮播图-->
+<section id="list-lunbo">
+    <div class="listlun-con">
+        <ul id="listlunimg">
+            <!--<li><a href="#"><img src="../images/listlun1.jpg" alt=""></a></li>-->
+        </ul>
+        <ol id="listlunli">
+<!--            <li></li>-->
+        </ol>
+    </div>
+</section>
+
+<!--listmain-->
+<section id="listmain">
+    <div class="listcon1">
+        <h2><img src="../images/list-1.jpg_.webp" alt=""></h2>
+        <aside>
+            <a href="http://tiptopbx.tmall.com?acm=lb-zebra-305313-6025213.1003.4.5485246&scm=1003.4.lb-zebra-305313-6025213.ITEM_549481605917_5485246"><img
+                    src="../images/listcon1.png" alt=""></a>
+
+            <a href="http://bulla.tmall.com?acm=lb-zebra-305313-6025213.1003.4.5485246&scm=1003.4.lb-zebra-305313-6025213.ITEM_586674082684_5485246"><img
+                    src="../images/listcon2.png" alt=""></a>
+            <a href="http://senyong.tmall.com/?acm=lb-zebra-305313-6025213.1003.4.5485246&scm=1003.4.lb-zebra-305313-6025213.ITEM_572483208890_5485246"><img
+                    src="../images/listcon3.png" alt=""></a>
+            <a href="https://miao.tmall.com/?spm=875.7931836/B.2016004.5.15054265dwsVFx&acm=lb-zebra-148799-667861.1003.4.2429983&scm=1003.4.lb-zebra-148799-667861.OTHER_14561818451146_2429983"><img
+                    src="../images/listcon4.png" alt=""></a>
+            <a href="http://kingoscar.tmall.com/?spm=a223ee.11136065.9237159735.4.4d8151fcVyXzYh&acm=lb-zebra-305313-6025213.1003.4.5485246&scm=1003.4.lb-zebra-305313-6025213.ITEM_585763961213_5485246"><img
+                    src="../images/listcon5.png" alt=""></a>
+            <a href="http://taiyanggu.tmall.com/p/rd899686.htm?spm=a223ee.11136065.9237159735.5.4d8151fcVyXzYh&acm=lb-zebra-305313-6025213.1003.4.5485246&scm=1003.4.lb-zebra-305313-6025213.ITEM_580602541171_5485246"><img
+                    src="../images/listcon6.png" alt=""></a>
+            <a href="http://shop202419356.m.taobao.com?spm=a223ee.11136065.9237159735.6.4d8151fcVyXzYh&acm=lb-zebra-305313-6025213.1003.4.5485246&scm=1003.4.lb-zebra-305313-6025213.ITEM_586371791470_5485246"><img
+                    src="../images/listcon7.png" alt=""></a>
+        </aside>
+    </div>
+    <div class="listcon2">
+        <h2><img src="../images/list-2.jpg_.webp" alt=""></h2>
+        <div id=shoplist>
+
+           <!-- <a href="#" class="spa">
+                <div>
+                    <aside>
+                        <img src="../images/listlun1.jpg" alt="">
+                        <span class="mark"></span>
+                    </aside>
+                    <p>双汇火腿肠</p>
+                    <em>￥&nbsp;50</em>
+                    <section>立即购买</section>
+                </div>
+            </a>-->
+        </div>
+    </div>
+</section>
+
+<section id="main">
+    <main>
+        <footer id="footer">
+            <div class="foot1">
+                <a href="#">
+                    <aside>优</aside>
+                    <div>
+                        <b>品质保障</b>
+                        <em>品质护航 购物无忧</em>
+                    </div>
+                </a>
+                <a href="#">
+                    <aside>七</aside>
+                    <div>
+                        <b>七天无理由</b>
+                        <em>为您提供搜后无忧保障</em>
+                    </div>
+                </a>
+                <a href="#">
+                    <aside>特</aside>
+                    <div>
+                        <b>特色服务体验</b>
+                        <em>为您呈现不一样的服务</em>
+                    </div>
+                </a>
+                <a href="#">
+                    <aside>帮</aside>
+                    <div>
+                        <b>帮助中心</b>
+                        <em>您的购物指南</em>
+                    </div>
+                </a>
+            </div>
+            <div class="foot2">
+                <dl>
+                    <dt>购物指南</dt>
+                    <dd>免费注册</dd>
+                    <dd>开通支付宝</dd>
+                    <dd>支付宝充值</dd>
+                </dl>
+                <dl>
+                    <dt>天猫保障</dt>
+                    <dd>发票保障</dd>
+                    <dd>售后规则</dd>
+                    <dd>缺货赔付</dd>
+                </dl>
+                <dl>
+                    <dt>支付方式</dt>
+                    <dd>快捷支付</dd>
+                    <dd>信用卡</dd>
+                    <dd>余额宝</dd>
+                    <dd>蚂蚁花呗</dd>
+                    <dd>货到付款</dd>
+                </dl>
+                <dl>
+                    <dt>商家服务</dt>
+                    <dd>天猫规则</dd>
+                    <dd>商家入驻</dd>
+                    <dd>商家中心</dd>
+                    <dd>天猫智库</dd>
+                    <dd>物流服务</dd>
+                    <dd>喵言喵语</dd>
+                    <dd>运营服务</dd>
+                </dl>
+                <dl>
+                    <dt>手机天猫</dt>
+                    <dd><img src="../images/end-erweima.png" alt=""></dd>
+                </dl>
+            </div>
+            <div class="foot3">
+                <p><a href="#">关于天猫</a><a href="#">帮助中心</a><a href="#">开放平台</a><a href="#">诚聘英才</a><a href="#">联系我们</a><a
+                        href="#">网站合作</a><a href="#">法律声明</a><a href="#">隐私权政策</a><a href="#">知识产权</a><a href="#">规则意见征集</a></p>
+                <p><a href="#">阿里巴巴集团</a>|<a href="#">淘宝网</a>|<a href="#">天猫</a>|<a href="#">聚划算</a>|<a href="#">全球速卖通</a>|<a
+                        href="#">阿里巴巴国际交易市场</a>|<a href="#">阿里妈妈</a>|<a href="#">飞猪</a>|<a href="#">1688</a>|<a href="#">阿里云计算</a>|<a
+                        href="#">阿里通信</a>|<a href="#">万网</a>|<a href="#">高德</a>|<a href="#">支付宝</a>|<a href="#">阿里安全</a></p>
+                <aside><a href="#">增值电信业务经营许可证： 浙B2-20110446</a><a href="#"> 市场名称登记证：工商网市字3301004119号</a><a href="#">出版物网络交易平台服务经营备案证： 新出发浙备字第001号</a></aside>
+                <aside><a href="#">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</a><a href="#"> 互联网药品信息服务资质证书编号：浙-（经营性）-2017-0005</a><a href="#">浙公网安备 33010002000120号</a></aside>
+                <aside><a href="#">医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00002号</a><a href="#"> 互联网药品交易服务资格证书：国A20150001</a></aside>
+                <aside><a href="#">浙江省网络食品销售第三方平台提供者备案：浙网食A33010002</a><a href="#">12318举报</a></aside>
+                <aside>© 2003-2020 TMALL.COM 版权所有</aside>
+            </div>
+        </footer>
+    </main>
+</section>
+
+<script src="../js/require.js" async="true" defer data-main="../js/mainList"></script>
+</body>
+</html>

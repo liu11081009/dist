@@ -1,0 +1,67 @@
+{
+  "201709123": {
+    "id": "201709123",
+    "data": [
+      {
+        "imgUrl": "https://img.alicdn.com/tfs/TB1kx02beH2gK0jSZFEXXcqMpXa-400-400.jpg",
+        "_pos_": 1,
+        "entityType": "OTHER",
+        "title_cn": "今日疯抢",
+        "action": "https://pages.tmall.com/wow/z/cs/act/wupr?wh_biz=tm&pos=1&wh_pid=act/wzzww&acm=201709123-1.1003.2.8766785&scm=1003.2.201709123-1.OTHER_1603348181342_8766785",
+        "acm": "201709123-1.1003.2.8766785",
+        "_s_": "d",
+        "id": "1603348181342",
+        "scm": "1003.2.201709123-1.OTHER_1603348181342_8766785",
+        "title": "第2件0元",
+        "titleac": "精选推荐"
+      },
+      {
+        "imgUrl": "https://img.alicdn.com/tfs/TB18RDjcUT1gK0jSZFrXXcNCXXa-400-400.jpg",
+        "_pos_": 2,
+        "entityType": "OTHER",
+        "title_cn": "量贩装",
+        "action": "https://pages.tmall.com/wow/z/cs/act/wupr?wh_biz=tm&pos=2&wh_pid=act%2Fzyyksyn&acm=201709123-2.1003.2.8766786&scm=1003.2.201709123-2.OTHER_1603910354433_8766786",
+        "acm": "201709123-2.1003.2.8766786",
+        "_s_": "d",
+        "id": "1603910354433",
+        "scm": "1003.2.201709123-2.OTHER_1603910354433_8766786",
+        "title": "第2件0元",
+        "titleac": "早餐代餐"
+      }
+    ],
+    "exposureParam": "//ac.mmstat.com/1.gif?com=02&logtype=4&cache=3iLQHJGP&abtest=&apply=vote&abbucket=&cod=201709123&acm=201709123.1.1003&scm=1003.1.201709123",
+    "serverTime": 1604479373715,
+    "success": true
+  },
+  "201709122": {
+    "id": "201709122",
+    "data": [
+      {
+        "imgUrl": "https://img.alicdn.com/tfs/TB1aUWDnAL0gK0jSZFAXXcA9pXa-468-1236.jpg",
+        "righttitle": "1499抢",
+        "_pos_": 1,
+        "entityType": "OTHER",
+        "lefttitle": "天猫超市",
+        "action": "https://pages.tmall.com/wow/z/cs/act/wupr?wh_biz=tm&pos=1&wh_pid=act%2Fmaotaizhuanqu&acm=201709122.1003.2.8766700&scm=1003.2.201709122.OTHER_1603083316551_8766700",
+        "righttitle1": "飞天茅台",
+        "acm": "201709122.1003.2.8766700",
+        "_s_": "d",
+        "id": "1603083316551",
+        "scm": "1003.2.201709122.OTHER_1603083316551_8766700"
+      }
+    ],
+    "exposureParam": "//ac.mmstat.com/1.gif?com=02&logtype=4&cache=7qrHosaF&abtest=&apply=vote&abbucket=&cod=201709122&acm=201709122.1.1003&scm=1003.1.201709122",
+    "serverTime": 1604479373714,
+    "imgUrl": "https://img.alicdn.com/tfs/TB1aUWDnAL0gK0jSZFAXXcA9pXa-468-1236.jpg",
+    "righttitle": "1499抢",
+    "_pos_": 1,
+    "entityType": "OTHER",
+    "lefttitle": "天猫超市",
+    "action": "https://pages.tmall.com/wow/z/cs/act/wupr?wh_biz=tm&pos=1&wh_pid=act%2Fmaotaizhuanqu&acm=201709122.1003.2.8766700&scm=1003.2.201709122.OTHER_1603083316551_8766700",
+    "righttitle1": "飞天茅台",
+    "acm": "201709122.1003.2.8766700",
+    "_s_": "d",
+    "scm": "1003.2.201709122.OTHER_1603083316551_8766700",
+    "success": true
+  }
+}

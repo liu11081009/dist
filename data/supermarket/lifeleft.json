@@ -1,0 +1,33 @@
+{
+  "201709143": {
+    "id": "201709143",
+    "data": [
+      {
+        "imgUrl": "https://img.alicdn.com/tps/i4/TB1FujvocVl614jSZKPSuuGjpXa.jpg",
+        "righttitle": "预售享立减",
+        "_pos_": 1,
+        "entityType": "OTHER",
+        "lefttitle": "家装建材",
+        "action": "https://pages.tmall.com/wow/a/act/tmall/tmc/28098/3640/wupr?pos=1&status_bar_transparent=true&wh_pid=industry-220971&disableNav=YES&acm=201709143.1003.2.8767813&scm=1003.2.201709143.OTHER_1605456263899_8767813",
+        "righttitle1": "折上再9折",
+        "acm": "201709143.1003.2.8767813",
+        "_s_": "d",
+        "id": "1605456263899",
+        "scm": "1003.2.201709143.OTHER_1605456263899_8767813"
+      }
+    ],
+    "exposureParam": "//ac.mmstat.com/1.gif?com=02&logtype=4&cache=JJkjn0cj&abtest=&apply=vote&abbucket=&cod=201709143&acm=201709143.1.1003&scm=1003.1.201709143",
+    "serverTime": 1604479377022,
+    "imgUrl": "https://img.alicdn.com/tps/i4/TB1FujvocVl614jSZKPSuuGjpXa.jpg",
+    "righttitle": "预售享立减",
+    "_pos_": 1,
+    "entityType": "OTHER",
+    "lefttitle": "家装建材",
+    "action": "https://pages.tmall.com/wow/a/act/tmall/tmc/28098/3640/wupr?pos=1&status_bar_transparent=true&wh_pid=industry-220971&disableNav=YES&acm=201709143.1003.2.8767813&scm=1003.2.201709143.OTHER_1605456263899_8767813",
+    "righttitle1": "折上再9折",
+    "acm": "201709143.1003.2.8767813",
+    "_s_": "d",
+    "scm": "1003.2.201709143.OTHER_1605456263899_8767813",
+    "success": true
+  }
+}
