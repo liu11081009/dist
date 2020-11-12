@@ -34,9 +34,14 @@ require(['jquery','jquery-cookie'],function ($) {
         }
         const psd = inputs[1].value;
         const psd2 = inputs[2].value;
-        if(psd !== psd2){
-            alert("两次输入的密码不一样");
-            return false;
+
+        if(!psd){
+            alert("输入密码不能为空！")
+        }else{
+            if(psd != psd2){
+                alert("两次输入的密码不一样");
+                return false;
+            }
         }
 
         // 给后台发送数据

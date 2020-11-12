@@ -1,4 +1,3 @@
-
 $(function () {
     var inputs = $('#main aside form input');
     /*for(var i = 0 ;i < inputs.length;i++){
@@ -9,9 +8,9 @@ $(function () {
             $(this).css('borderColor','#6c6c6c')
         })
     }*/
-    for(var i = 0 ;i < inputs.length;i++){
+    for (var i = 0; i < inputs.length; i++) {
         $(inputs[i]).click(function () {
-            $(this).css('borderColor','#ff0036').siblings('input').css('borderColor','#6c6c6c')
+            $(this).css('borderColor', '#ff0036').siblings('input').css('borderColor', '#6c6c6c')
         })
     }
 
@@ -28,34 +27,37 @@ $(function () {
             return false;
         }
         const psd = inputs[1].value;
+        if (!psd) {
+            alert("密码不能为空")
+        } else {
+            // 给后台发送数据
+            $.ajax({
+                type: 'post',
+                url: '../php/login.php',
+                data: {
+                    email: inputs[0].value,
+                    psd: inputs[1].value
+                },
+                success: function (res) {
+                    if (res == "登录成功") {
 
-        console.log(inputs[0].value);
-        console.log(inputs[1].value);
+                        // sessionStorage.setItem(inputs[0].value ,inputs[1].value)
+                        // var obj = {Email:psd}
+                        sessionStorage.setItem('username', Email)
 
-        // 给后台发送数据
-        $.ajax({
-            type:'post',
-            url:'../php/login.php',
-            data:{
-                email:inputs[0].value,
-                psd:inputs[1].value
-            },
-            success:function (res) {
-                console.log(res);
-                console.log(res['code'])
-                if(res == "登录成功"){
-
-                    // sessionStorage.setItem(inputs[0].value ,inputs[1].value)
-                    // var obj = {Email:psd}
-                    sessionStorage.setItem('username',Email)
-
-                    alert("登录成功");
-                    window.location.href = '/index.html'
+                        alert("登录成功");
+                        window.location.href = '/index.html'
+                    }
+                    if (res == "错误") {
+                        alert("用户名或密码错误！")
+                    }
+                },
+                error: function (msg) {
+                    console.log("register给php的错误信息" + msg)
                 }
-            },
-            error:function (msg) {
-                console.log("register给php的错误信息"+msg)
-            }
-        })
+            })
+        }
+
+
     }
 })

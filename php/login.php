@@ -33,7 +33,8 @@ $row = mysql_fetch_assoc($res);
 if(!$row){
     $responseData['code'] = 5;
 	$responseData['message'] = "用户名或密码错误";
-	echo json_encode($responseData);
+//	echo json_encode($responseData);
+    echo "错误";
 	exit;
 }else {
     //用户名和密码验证成功，可以直接登录
