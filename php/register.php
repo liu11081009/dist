@@ -28,6 +28,8 @@ $res1 = mysql_query($sql1);
 $row1 = mysql_fetch_assoc($res1);
 if($row1){
     echo "已有";
+//    header("refresh:3;url='/html/login.html'");
+//    print("该用户存在...<br>三秒后自动跳转。");
     exit;
 };
 

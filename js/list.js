@@ -38,14 +38,14 @@ define(['supermarket','jquery'], function (supermarket,$) {
         })
         $('#listlunli li').eq(0).addClass('active')
         // 定时器
-        listtimer = setInterval(dsqfn,1000)
+        listtimer = setInterval(dsqfn,2000)
 
         // 鼠标移入
         $('#list-lunbo .listlun-con').mouseenter(function () {
             clearInterval(listtimer)
         })
         $('#list-lunbo .listlun-con').mouseleave(function () {
-            listtimer = setInterval(dsqfn,1000)
+            listtimer = setInterval(dsqfn,2000)
         })
 
         function dsqfn() {

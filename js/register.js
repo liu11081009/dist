@@ -55,7 +55,7 @@ require(['jquery','jquery-cookie'],function ($) {
             success:function (res) {
                 if(res == "注册成功"){
                     alert("成功")
-                    window.location.href = '/login.html';
+                    window.location.href = '/html/login.html';
                     return;
                 }
                 if(res == "已有"){

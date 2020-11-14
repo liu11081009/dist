@@ -292,6 +292,9 @@ define(['jquery', 'jquery-cookie'], function ($) {
                     del(id);
                 }
             }
+            var jiesuans = $('#scmain .jiesuan')
+            jiesuans[0].innerHTML = '0.0'
+            jiesuans[1].innerHTML = '0.0'
         }
         shop_yixuan()
         loo()
@@ -356,6 +359,8 @@ define(['jquery', 'jquery-cookie'], function ($) {
                     }
                 }
                 alert("购买成功，商品正准备发货~")
+                $('.jiesuan').html(0.0)
+                $('.shop-num').html(0)
             }
 
         } else {

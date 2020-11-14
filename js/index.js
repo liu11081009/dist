@@ -42,7 +42,7 @@ define(['jquery'],function ($) {
                         num++;
                         banMove()
 
-                    },1000)
+                    },2000)
 
                     // 鼠标移入移出
                     $('#banner .nav_right').mouseenter(function () {
@@ -52,7 +52,7 @@ define(['jquery'],function ($) {
                         timer = setInterval(function () {
                             num++;
                             banMove()
-                        },1000)
+                        },2000)
                     })
                     function banMove() {
                         if(num == banner_ullis.length){
